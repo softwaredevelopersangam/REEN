@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid rgb(212, 22, 22); */
+}
+.row,
+.row::after,
+.row::before{
+    clear: both;
+    display: table;
+    width: 100%;
+}
+a:hover,
+a:link,
+a:active,
+a:focus{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.width100{
+	width:100% !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.text-right{
+	text-align:right !important;
+}
+.bg-white{
+	background-color:#ffffff !important;
+}
+.border{
+	border:1px solid #00bb9b!important;
+}
+.bg{
+	background-color: #00bb9b!important;
+}
+
+ /* helper classes for col columes */
+div[class^="col"]{
+     float: left;
+     padding: 0 15px;
+ }
+ .col1{
+    width: calc(100%*1/12);
+}
+.col2{
+    width: calc(100%*2/12);
+}
+.col3{
+    width: 25%;
+}
+.col4{
+    width: calc(100%*4/12);
+}
+.col5{
+   width: calc(100%*5/12);
+}
+.col6{
+    width:50%;
+}
+.col7{
+    width: calc(100%*7/12);
+}
+.col8{
+    width: calc(100%*8/12);
+}
+.col9{
+    width: 75%;
+}
+.col10{
+    width: calc(100%*10/12);
+}
+.col11{
+    width: calc(100%*11/12);
+}
+.col12{
+    width: calc(100%*12/12);
+}
+
+
+/* helper classes for padding columes */
+.pt-0{
+    padding-top: 0px !important;
+}
+.pr-0{
+    padding-right: 0px !important;
+}
+.pb-0{
+    padding-bottom: 0px !important;
+}
+.pl-0{
+    padding-left: 0px !important;
+}
+.plr-10{
+	padding:0 10px !important;
+}
+.pl-12{
+	padding-left:12px !important;
+}
+
+
+/* helper classes for margin columes */
+.mt-0{
+    margin-top: 0 !important;
+}
+.mr-0{
+    margin-right: 0 !important;
+}
+.mb-0{
+    margin-bottom: 0 !important;
+}
+.ml-0{
+    margin-left: 0 !important;
+}
+.ml-30{
+	margin-left:30px !important;
+}
+.mr-10{
+	margin-right:10px !important;
+}
+.ml-50{
+	margin-left: 50px !important;
+}
+.mb-30{
+	margin-bottom:30px !important;
+}
+.mb-130{
+	margin-bottom:130px !important;
+}
+.ml-onecolume{
+	margin-left:calc(100% * 1 /12) !important;
+}
+.ml-twocolume{
+	margin-left:calc(100% * 2 /12) !important;
+}
+.mb-45{
+	margin-bottom:45px !important;
+}
+.mb-80{
+	margin-bottom:80px !important;
+}
+.mb-35{
+	margin-bottom:35px !important;
+}
+.mb-40{
+	margin-bottom:40px !important;
+}
+.mb-15{
+	margin-bottom:15px !important;
+}
+.mr-15{
+	margin-right:15px !important;
+}
+.mb-25{
+	margin-bottom:25px !important;
+}
